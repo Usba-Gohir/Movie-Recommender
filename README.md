@@ -12,10 +12,10 @@ This is an interactive **Movie Recommender System** built with **Streamlit** tha
   
 - **Recommendations**: After selecting a movie, the system recommends 5 similar movies.
   ![tangled](https://github.com/user-attachments/assets/618c31b7-7467-4738-8602-53d6f05b8889)
+  ![pirates](https://github.com/user-attachments/assets/76df113e-50d6-45ca-bc50-25d36a409fdf)
   
 - **Movie Posters**: The posters for the recommended movies are fetched from The Movie Database (TMDb) API.
-  
-  
+
 - **User Interface**: Simple and intuitive interface built using Streamlit.
   
 ---
