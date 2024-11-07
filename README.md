@@ -8,9 +8,14 @@ This is an interactive **Movie Recommender System** built with **Streamlit** tha
 
 - **Movie Selection**: Users can type in or select a movie from a dropdown list.
   ![home](https://github.com/user-attachments/assets/412b6277-e4b4-4b0b-a616-7ff675bb8f9c)
-
+  ![type](https://github.com/user-attachments/assets/2ce3d74b-1b29-4d8d-be94-ec13a3b88aa7)
+  
 - **Recommendations**: After selecting a movie, the system recommends 5 similar movies.
+  ![tangled](https://github.com/user-attachments/assets/618c31b7-7467-4738-8602-53d6f05b8889)
+  
 - **Movie Posters**: The posters for the recommended movies are fetched from The Movie Database (TMDb) API.
+  
+  
 - **User Interface**: Simple and intuitive interface built using Streamlit.
   
 ---
