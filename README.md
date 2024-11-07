@@ -34,33 +34,27 @@ To run this project locally, follow the steps below:
 
 ### 1. Clone the Repository:
 
-bash
-git clone https://github.com/yourusername/movie-recommender-system.git
+
+git clone https://github.com/Usba-Gohir/Movie-Recommender.git
 cd movie-recommender-system
-2. Install Dependencies:
+
+### 2. Install Dependencies:
 Use requirements.txt to install the required libraries.
-
-bash
-Copy code
 pip install -r requirements.txt
-Alternatively, you can install the individual libraries using pip:
-
-bash
-Copy code
 pip install streamlit pandas requests
-3. Set Up TMDb API Key:
+
+### 3. Set Up TMDb API Key:
 Go to TMDb API and sign up for an API key.
 Replace the YOUR_API_KEY placeholder in the code with your actual API key in the app.py file.
-Running the Application:
-To run the Streamlit app locally:
 
-bash
-Copy code
+### Running the Application:
+To run the Streamlit app locally:
 streamlit run app.py
+
 This will launch the app in your web browser, where you can interact with the Movie Recommender System.
 
-How it Works:
-Movie Selection: When you run the app, you can select a movie from a dropdown list of available movies.
+## How it Works:
+- **Movie Selection:** When you run the app, you can select a movie from a dropdown list of available movies.
 Recommendation Process: Upon selecting a movie, the system calculates the similarity between the chosen movie and others, using the pre-trained similarity matrix.
 Posters and Movie Information: The top 5 similar movies are recommended along with their posters, fetched from The Movie Database (TMDb) API.
 Interface: The user-friendly interface displays the recommended movies in a visually appealing layout.
