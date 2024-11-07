@@ -54,16 +54,19 @@ streamlit run app.py
 This will launch the app in your web browser, where you can interact with the Movie Recommender System.
 
 ## How it Works:
+
 - **Movie Selection:** When you run the app, you can select a movie from a dropdown list of available movies.
-Recommendation Process: Upon selecting a movie, the system calculates the similarity between the chosen movie and others, using the pre-trained similarity matrix.
-Posters and Movie Information: The top 5 similar movies are recommended along with their posters, fetched from The Movie Database (TMDb) API.
-Interface: The user-friendly interface displays the recommended movies in a visually appealing layout.
+- **Recommendation Process:** Upon selecting a movie, the system calculates the similarity between the chosen movie and others, using the pre-trained similarity matrix.
+- **Posters and Movie Information:** The top 5 similar movies are recommended along with their posters, fetched from The Movie Database (TMDb) API.
+- **Interface:** The user-friendly interface displays the recommended movies in a visually appealing layout.
+
 Files:
-app.py: The main Streamlit application code.
-movie_dict.pkl: A pickle file containing movie metadata (e.g., movie titles and IDs).
-similarity.pkl: A pickle file containing the similarity matrix used to recommend similar movies.
-requirements.txt: A text file listing all dependencies required to run the app.
-Future Improvements:
-User Feedback: Allow users to provide ratings for the recommendations, enabling the system to learn and improve over time.
-Enhanced Recommendations: Integrate additional features like genre, director, or actor data for more accurate recommendations.
-Recommendation History: Store user preferences or past recommendations for personalized suggestions.
+- **app.py:** The main Streamlit application code.
+- **movie_dict.pkl:** A pickle file containing movie metadata (e.g., movie titles and IDs).
+- **similarity.pkl:** A pickle file containing the similarity matrix used to recommend similar movies.
+- **requirements.txt:** A text file listing all dependencies required to run the app.
+
+## Future Improvements:
+- **User Feedback:** Allow users to provide ratings for the recommendations, enabling the system to learn and improve over time.
+- **Enhanced Recommendations:** Integrate additional features like genre, director, or actor data for more accurate recommendations.
+- **Recommendation History:** Store user preferences or past recommendations for personalized suggestions.
